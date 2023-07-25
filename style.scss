@@ -1,0 +1,43 @@
+@import "utilidades/mixin.scss";
+@import "utilidades/extend";
+@import "../scss/reset/reset";
+
+@import "utilidades/variables";
+
+@import "html/sucesos";
+@import "html/nacionales";
+@import "html/inicio";
+@import "html/contacto";
+@import "html/internacionales";
+@import "html/ultimasnoticias";
+
+
+
+header{
+    background-color: $color-principal;
+    
+         
+         nav ul { 
+                list-style: none;
+                display:grid ;  
+                gap: 30px;
+                font-size:large;
+                margin-left: 5px;
+                }}
+         
+
+
+ main{background-color: #D1C7BD;}
+
+ 
+footer{ background-color: $color-principal;
+}
+ 
+.derechosinicio{
+    display: grid; 
+    place-items: center;
+    font-size: 10px;
+    margin-bottom: 5px; color: white;}
+
+
+
